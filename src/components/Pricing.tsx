@@ -57,11 +57,9 @@ export default function Pricing() {
           <span className={`text-sm font-medium transition-colors ${isYearly ? 'text-white' : 'text-white/40'}`}>
             Yearly
           </span>
-          {isYearly && (
-            <span className="text-xs text-accent font-semibold bg-accent/10 px-2 py-0.5 rounded-full animate-in fade-in duration-200">
-              Save 16%
-            </span>
-          )}
+          <span className={`text-xs text-accent font-semibold bg-accent/10 px-2 py-0.5 rounded-full transition-opacity duration-200 ${isYearly ? 'opacity-100' : 'opacity-0'}`}>
+            Save 16%
+          </span>
         </motion.div>
 
         {/* Subscription Cards */}
