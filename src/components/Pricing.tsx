@@ -39,27 +39,29 @@ export default function Pricing() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="flex items-center justify-center gap-4 mb-12"
+          className="flex items-center justify-center mb-12"
         >
-          <span className={`text-sm font-medium transition-colors ${!isYearly ? 'text-white' : 'text-white/40'}`}>
-            Monthly
-          </span>
-          <button
-            onClick={() => setIsYearly(!isYearly)}
-            className="relative w-14 h-7 bg-white/10 rounded-full transition-colors duration-300 hover:bg-white/15"
-          >
-            <div
-              className={`absolute top-1 w-5 h-5 bg-accent rounded-full transition-all duration-300 shadow-lg ${
-                isYearly ? 'left-8' : 'left-1'
-              }`}
-            />
-          </button>
-          <span className={`text-sm font-medium transition-colors ${isYearly ? 'text-white' : 'text-white/40'}`}>
-            Yearly
-          </span>
-          <span className={`text-xs text-accent font-semibold bg-accent/10 px-2 py-0.5 rounded-full transition-opacity duration-200 ${isYearly ? 'opacity-100' : 'opacity-0'}`}>
-            Save 16%
-          </span>
+          <div className="relative flex items-center gap-4">
+            <span className={`text-sm font-medium transition-colors ${!isYearly ? 'text-white' : 'text-white/40'}`}>
+              Monthly
+            </span>
+            <button
+              onClick={() => setIsYearly(!isYearly)}
+              className="relative w-14 h-7 bg-white/10 rounded-full transition-colors duration-300 hover:bg-white/15"
+            >
+              <div
+                className={`absolute top-1 w-5 h-5 bg-accent rounded-full transition-all duration-300 shadow-lg ${
+                  isYearly ? 'left-8' : 'left-1'
+                }`}
+              />
+            </button>
+            <span className={`text-sm font-medium transition-colors ${isYearly ? 'text-white' : 'text-white/40'}`}>
+              Yearly
+            </span>
+            <span className={`absolute -right-20 text-xs text-accent font-semibold bg-accent/10 px-2 py-0.5 rounded-full transition-opacity duration-200 ${isYearly ? 'opacity-100' : 'opacity-0'}`}>
+              Save 16%
+            </span>
+          </div>
         </motion.div>
 
         {/* Subscription Cards */}
