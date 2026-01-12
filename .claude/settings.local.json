@@ -22,7 +22,8 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create aiugcify-website --public --source=. --push)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(done)"
     ]
   },
   "enableAllProjectMcpServers": true,
