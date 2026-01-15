@@ -1,4 +1,4 @@
-export const CHROME_STORE_URL = 'https://chrome.google.com/webstore/detail/your-extension-id'
+export const CHROME_STORE_URL = 'https://chromewebstore.google.com/detail/ai-ugcify-tiktok-shop-vid/peiicdkphmliakagmchjjlkooapodghn'
 
 export const NAV_LINKS = [
   { label: 'Features', href: '#features' },
