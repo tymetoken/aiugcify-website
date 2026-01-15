@@ -37,8 +37,8 @@ export const STEPS = [
   },
   {
     number: '03',
-    title: 'Get your viral-ready video',
-    description: 'AI generates a conversion-optimized script and creates a professional UGC-style video.',
+    title: 'Get your video that sells',
+    description: 'AI generates a conversion-optimized script and creates a professional video designed to convert.',
   },
 ] as const
 
@@ -148,24 +148,12 @@ export const FAQ_ITEMS = [
     answer: 'Most videos are generated in 2-5 minutes. Complex products with longer scripts may take up to 10 minutes. You\'ll receive a notification when your video is ready.',
   },
   {
-    question: 'What platforms are supported?',
-    answer: 'Currently, AI UGCify works with TikTok Shop product pages. We\'re actively working on support for Amazon, Shopify, and other major e-commerce platforms.',
-  },
-  {
-    question: 'What video format and quality do I get?',
-    answer: 'Videos are generated in 9:16 vertical format, perfect for TikTok, Instagram Reels, and YouTube Shorts. Quality is HD (1080p) on Starter/Growth plans and 4K on Scale/Agency plans.',
-  },
-  {
     question: 'Do unused videos roll over?',
     answer: 'Unused videos do not roll over to the next month. Your video quota resets at the start of each billing cycle. You can upgrade or downgrade your plan anytime.',
   },
   {
     question: 'Can I edit the AI-generated script?',
     answer: 'Absolutely! You have full control to edit the script before generating your video. Adjust the hook, change the call-to-action, add your own personality—it\'s completely customizable.',
-  },
-  {
-    question: 'Is there a free trial?',
-    answer: 'We offer a demo on the landing page so you can see the quality. New users get their first video at a discounted rate. No credit card required to install the extension.',
   },
   {
     question: 'What if I\'m not satisfied with a video?',

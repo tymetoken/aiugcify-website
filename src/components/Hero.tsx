@@ -51,9 +51,9 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
           >
-            <span className="text-white">Turn Any Product Page</span>
+            <span className="text-white">Stop Paying $300 Per Video.</span>
             <br />
-            <span className="gradient-text">Into a Viral TikTok Video</span>
+            <span className="gradient-text">Create Professional UGC in 5 Minutes.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -63,8 +63,9 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto mb-10"
           >
-            Stop paying $300+ per UGC video. Our Chrome extension creates
-            professional, conversion-focused videos from TikTok Shop products in minutes.
+            The Chrome extension TikTok Shop sellers use to create unlimited UGC videos
+            at 1/100th the cost of hiring creators. Test more products. Scale what works.
+            Keep your profits.
           </motion.p>
 
           {/* CTA */}
@@ -83,7 +84,7 @@ export default function Hero() {
               <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29L1.931 5.47zm13.387 2.166l-3.953 6.848a5.454 5.454 0 0 1 0 6.892L15.318 14.5A11.967 11.967 0 0 0 24 12c0-.685-.057-1.357-.168-2.014H12.736l2.582-4.35z" />
               </svg>
-              Add to Chrome — Start Free
+              Install Free — Get 2 Videos on Us
             </a>
           </motion.div>
 

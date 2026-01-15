@@ -39,10 +39,10 @@ export default function SocialProof() {
           </h3>
 
           <p className="text-white/60 text-lg leading-relaxed">
-            "I was spending thousands on UGC creators for my dropshipping products.
-            The videos were hit or miss, took forever to deliver, and drained my budget.
-            So I built AI UGCify—the tool I wished existed. Now I create dozens of
-            test videos for the cost of one traditional UGC video."
+            "I spent $4,800 on UGC creators in one month testing products. Half the videos
+            sucked. A quarter never delivered. I was bleeding cash for videos I couldn't
+            even use. So I built AI UGCify—the tool I needed 6 months ago. Now I test
+            10 products for what I used to spend on one video."
           </p>
 
           <div className="mt-6 flex items-center justify-center gap-4 text-white/40 text-sm">

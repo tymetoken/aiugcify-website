@@ -118,7 +118,7 @@ export default function Pricing() {
                 <div className="h-px bg-white/[0.06] mb-6" />
 
                 {/* Features */}
-                <ul className="space-y-3 mb-8">
+                <ul className="space-y-3 mb-6">
                   {plan.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-accent shrink-0 mt-0.5" />
@@ -126,6 +126,17 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
+
+                {/* Pricing anchor */}
+                <div className="mb-6 pt-4 border-t border-white/10">
+                  <p className="text-sm text-white/40 text-center">
+                    vs <span className="line-through">
+                      {plan.name === 'Basic' && '$1,500+/mo'}
+                      {plan.name === 'Standard' && '$4,500+/mo'}
+                      {plan.name === 'Premium' && '$10,000+/mo'}
+                    </span> for {plan.credits} creator videos
+                  </p>
+                </div>
 
                 {/* CTA */}
                 <a
