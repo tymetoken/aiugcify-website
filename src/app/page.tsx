@@ -7,7 +7,6 @@ import HowItWorks from '@/components/HowItWorks'
 import Features from '@/components/Features'
 import WhoThisIsFor from '@/components/WhoThisIsFor'
 import Pricing from '@/components/Pricing'
-import SocialProof from '@/components/SocialProof'
 import ObjectionHandling from '@/components/ObjectionHandling'
 import FAQ from '@/components/FAQ'
 import FinalCTA from '@/components/FinalCTA'
@@ -27,7 +26,6 @@ export default function Home() {
         <Features />
         <WhoThisIsFor />
         <Pricing />
-        <SocialProof />
         <ObjectionHandling />
         <FAQ />
         <FinalCTA />
