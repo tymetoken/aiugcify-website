@@ -7,7 +7,6 @@ import HowItWorks from '@/components/HowItWorks'
 import Features from '@/components/Features'
 import WhoThisIsFor from '@/components/WhoThisIsFor'
 import Pricing from '@/components/Pricing'
-import RiskReversal from '@/components/RiskReversal'
 import SocialProof from '@/components/SocialProof'
 import ObjectionHandling from '@/components/ObjectionHandling'
 import FAQ from '@/components/FAQ'
@@ -28,7 +27,6 @@ export default function Home() {
         <Features />
         <WhoThisIsFor />
         <Pricing />
-        <RiskReversal />
         <SocialProof />
         <ObjectionHandling />
         <FAQ />
