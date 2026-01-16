@@ -18,10 +18,10 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <DesktopNotice />
         <HowItWorks />
         <ProblemSection />
         <SolutionSection />
+        <DesktopNotice />
         <Features />
         <WhoThisIsFor />
         <ObjectionHandling />
