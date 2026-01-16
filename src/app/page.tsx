@@ -6,7 +6,6 @@ import SolutionSection from '@/components/SolutionSection'
 import HowItWorks from '@/components/HowItWorks'
 import Features from '@/components/Features'
 import WhoThisIsFor from '@/components/WhoThisIsFor'
-import Pricing from '@/components/Pricing'
 import ObjectionHandling from '@/components/ObjectionHandling'
 import FAQ from '@/components/FAQ'
 import FinalCTA from '@/components/FinalCTA'
@@ -25,7 +24,6 @@ export default function Home() {
         <SolutionSection />
         <Features />
         <WhoThisIsFor />
-        <Pricing />
         <ObjectionHandling />
         <FAQ />
         <FinalCTA />
